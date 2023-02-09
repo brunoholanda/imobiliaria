@@ -36,6 +36,7 @@ https://www.figma.com/file/mF9GubUlA0iWt1BBULrd9t/MOBPE---LP-ESTUDO?node-id=2%3A
 # Tecnologias utilizadas
 
 :spades: REACT;<br>
+:spades: SASS;<br>
 :spades: API-"Fake";<br>
 :spades: js;<br>
 :spades: Router Dom;<br>
