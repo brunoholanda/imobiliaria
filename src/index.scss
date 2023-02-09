@@ -1,0 +1,23 @@
+:root {
+  --fonte-principal: 'Lexend', sans-serif;
+  --fonte-secundaria: 'Inter', sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --roxo: #5C63EF;
+  --roxo-fosco: #292B52;
+  --cinza: #A1A1A1;
+  --cinza-claro: #E6E6EB;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,65 @@
+.imovel {
+    display: flex;
+    margin: 1em 2em;
+    font-family: var(--fonte-principal);
+
+    h1 {
+        font-size: 20px;
+    }
+ 
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+     }
+
+    p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    &__imagem {
+        img{
+            width: 260px;
+            height: 220px;
+            border-radius: 8px 0px 0px 8px;  
+        }
+    }
+
+    &__texto {
+        background-color: var(--cinza-claro);
+        width: 220px;
+        height: 220px;
+        padding-left: 2em;
+        border-radius: 0px 8px 8px 0px;       
+    }
+
+    &__contato {
+        h2 {
+            margin-bottom: 0;
+
+        }
+
+        p {
+            margin-top: .5em;
+
+        }
+    }
+}
+
+.info {
+    display: flex;
+    
+    &__elemento {
+        margin-right: 1em;
+
+        p {
+            margin-top: 0;
+        }
+
+        img {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+}

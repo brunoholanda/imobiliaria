@@ -1,0 +1,112 @@
+.contato {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0.8em 6em;
+
+    h2,
+    h3 {
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    &__logo {
+
+        p {
+            font-family: var(--fonte-principal);
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        img {
+            padding-right: .5em;
+        }
+    }
+
+    &__navegacao {
+
+        h3 {
+            font-size: 14px;
+        }
+
+        a {
+            font-family: var(--fonte-principal);
+            font-size: 14px;
+            font-weight: 300;
+            display: flex;
+            text-decoration: none;
+            color: var(--preto);
+            margin-bottom: .5em;
+        }
+
+        a:hover {
+            color: var(--roxo);
+            font-weight: 700;
+        }
+    }
+
+    &__telmail {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            width: 16px;
+            height: 16px;
+            margin-right: .3em;
+        }
+
+        p {
+            font-family: var(--fonte-secundaria);
+            font-size: 12px;
+        }
+    }
+
+    &__input {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    input {
+        border: 1px solid var(--cinza);
+        border-radius: 8px 0px 0px 8px;
+        width: 250px;
+        height: 40px;
+    }
+
+    input::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: var(--fonte-principal);
+        font-weight: 300;
+        font-size: 14px;
+        padding-left: 1em;
+    }
+
+    button {
+        font-size: 14px;
+        border-radius: 0px 8px 8px 0px;
+        width: 90px;
+        height: 44px;
+        background-color: var(--roxo);
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-weight: 500;
+        border: none;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+}

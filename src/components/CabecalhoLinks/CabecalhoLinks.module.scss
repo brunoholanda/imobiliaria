@@ -52,10 +52,9 @@
 
     &__botao:hover{
         border-radius: 8px;
-        background-color: var(--roxo);
 
         p:hover {
-            color: var(--branco);
+            color: var(--roxo);
         }
     }
 }

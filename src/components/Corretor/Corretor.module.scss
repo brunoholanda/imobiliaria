@@ -1,0 +1,16 @@
+.corretor {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+
+    button {
+        border: none;
+        width: 250px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 20PX;
+        font-family: var(--fonte-secundaria);
+    }
+
+}

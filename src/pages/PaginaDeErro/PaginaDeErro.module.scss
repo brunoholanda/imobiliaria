@@ -1,0 +1,21 @@
+.erro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em 8em;
+    font-family: var(--fonte-principal);
+
+    h1 {
+        
+        font-size: 30px;
+    }
+
+    button {
+        border: none;
+        width: 300px;
+        height: 45px;
+        border-radius: 8px;
+    }
+}
+

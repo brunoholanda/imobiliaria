@@ -1,0 +1,12 @@
+.botao {
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+        cursor: pointer;
+        transition: 0.5s ease;
+}

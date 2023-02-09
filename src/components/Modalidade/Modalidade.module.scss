@@ -1,0 +1,25 @@
+.modalidade {
+    background-color: var(--preto);
+    padding-bottom: 1em;
+
+    &__titulo {
+        background-color: var(--roxo);
+        padding: 0.1em 0;
+
+        h3 {
+            font-family: var(--fonte-principal);
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    
+
+
+    &__card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,17 @@
+.campotexto {
+
+    input {
+        border: 1px solid var(--cinza);
+        border-radius: 8px;
+        width: 307px;
+        height: 40px;
+    }
+
+    input::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: var(--fonte-principal);
+        font-weight: 300;
+        font-size: 14px;
+        padding-left: 1em;
+    }
+}

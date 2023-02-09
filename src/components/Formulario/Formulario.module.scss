@@ -1,0 +1,28 @@
+.adicionar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0 2em 0;
+    background-color: var(--cinza-claro);
+
+
+    input {
+        width: 500px;
+        height: 45px;
+        margin-bottom: 1em;
+        border-style: none;
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        font-family: var(--fonte-principal);
+    }
+
+    button {
+        width: 500px;
+        height: 60px;
+        border: none;
+        border-radius: 8px;
+    }
+}

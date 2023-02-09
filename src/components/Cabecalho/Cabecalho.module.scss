@@ -1,7 +1,8 @@
 .cabecalho {
     background-color: var(--roxo);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 7em;
     align-items: center;
 
     &__contato {

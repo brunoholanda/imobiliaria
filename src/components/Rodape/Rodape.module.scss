@@ -1,0 +1,10 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-size: 12px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}

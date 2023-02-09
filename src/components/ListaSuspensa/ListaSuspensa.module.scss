@@ -1,0 +1,18 @@
+.listasuspensa {
+    border-style: none;
+    margin-bottom: 1em;
+    width: 500px;
+    height: 45px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    select {
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 500px;
+        height: 45px;
+        font-weight: 400;
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+        padding-left: 1em;
+        border-radius: 8px;
+    }
+}

@@ -10,7 +10,9 @@ export default function CabecalhoLinks() {
                 <img src={logo} alt="logo da imobiliaria" />
             </Link>
             <div className={styles.cabecalho__links}>
-                <a href="#home">Home</a>
+                <Link to="./">
+                    Home
+                </Link>
                 <a href="#imoveis">Imóveis</a>
                 <a href="#sobre">Sobre Nós</a>
                 <a href="#contato">Contato</a>
