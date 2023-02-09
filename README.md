@@ -29,7 +29,7 @@ https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-1.png<br>
 https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-2.png<br>
 
 # Acesse o Figma do projeto
-https://www.figma.com/file/rJ2KwenAAA0Mg8X1LbYYBi/Restaurante---Food?node-id=0%3A1&t=AmCij3WZhEwqFQ7P-0
+https://www.figma.com/file/mF9GubUlA0iWt1BBULrd9t/MOBPE---LP-ESTUDO?node-id=2%3A2&t=V6Y9jaINZVGv2yNI-0
 
 # Tecnologias utilizadas
 
