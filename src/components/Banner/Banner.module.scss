@@ -1,0 +1,42 @@
+.banner {
+    font-family: var(--fonte-principal);
+    padding: 0;
+    
+    img {
+        position: absolute;
+        width: 100%;
+    }
+
+    &__info {
+        position: relative;
+        padding: 0em 35em 0 7em;
+
+    h1 {
+       
+       font-size: 48px;
+       font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        position: relative;
+       
+    }
+
+    button {
+        background-color: var(--roxo);
+        border-radius: 8px;
+        color: var(--branco);
+        width: 310px;
+        height: 48px;
+        border: none;
+    }
+
+    button:hover {
+        background-color: var(--branco);
+        color: var(--roxo);
+        border: 2px solid var(--roxo);
+    }
+}
+}

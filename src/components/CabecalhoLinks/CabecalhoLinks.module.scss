@@ -1,0 +1,62 @@
+.cabecalho {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.8em 5em;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+
+    &__links {
+        
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            margin: 0 1em;
+            color: var(--preto);
+        }
+
+        a:hover {
+            font-weight: 500;
+            color: var(--roxo);
+        }
+    }
+
+    &__botao {
+  
+
+        a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border: 1px solid var(--roxo);
+        border-radius: 8px;
+        width: 200px;
+        height: 36px;
+
+        img {
+            width: 18px;
+            height: 18px;
+            margin-right: .4em;
+        }
+
+        p {
+            font-weight: 500;
+        }
+
+    }
+
+    }
+
+    &__botao:hover{
+        border-radius: 8px;
+        background-color: var(--roxo);
+
+        p:hover {
+            color: var(--branco);
+        }
+    }
+}
+
