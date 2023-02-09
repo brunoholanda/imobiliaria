@@ -18,7 +18,7 @@ https://imobiliaria-orpin.vercel.app/
 >Inserir as informações do imóvel a ser anunciado
 >Clicar no Botão "Adicionar Imóvel"
 
-URL`S DE IMAGENS PARA TESTAR
+URL`S DE IMAGENS PARA TESTAR<br>
 CASAS<br>
 https://nerdking.net.br/wp-content/uploads/2023/02/casa-1.png<br>
 https://nerdking.net.br/wp-content/uploads/2023/02/casa-2.png	<br>
