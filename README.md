@@ -27,6 +27,8 @@ https://nerdking.net.br/wp-content/uploads/2023/02/casa-3.png<br>
 APARTAMENTOS<br>
 https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-1.png<br>
 https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-2.png<br>
+<br>
+Ao adicionar os imoveis a pagina sera dividida entre imoveis para Venda e para Alugar
 
 # Acesse o Figma do projeto
 https://www.figma.com/file/mF9GubUlA0iWt1BBULrd9t/MOBPE---LP-ESTUDO?node-id=2%3A2&t=V6Y9jaINZVGv2yNI-0
