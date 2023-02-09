@@ -19,14 +19,14 @@ https://imobiliaria-orpin.vercel.app/
 >Clicar no Botão "Adicionar Imóvel"
 
 URL`S DE IMAGENS PARA TESTAR
-CASAS
-https://nerdking.net.br/wp-content/uploads/2023/02/casa-1.png
-https://nerdking.net.br/wp-content/uploads/2023/02/casa-2.png	
-https://nerdking.net.br/wp-content/uploads/2023/02/casa-3.png
+CASAS<br>
+https://nerdking.net.br/wp-content/uploads/2023/02/casa-1.png<br>
+https://nerdking.net.br/wp-content/uploads/2023/02/casa-2.png	<br>
+https://nerdking.net.br/wp-content/uploads/2023/02/casa-3.png<br>
 
-APARTAMENTOS
-https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-1.png
-https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-2.png
+APARTAMENTOS<br>
+https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-1.png<br>
+https://nerdking.net.br/wp-content/uploads/2023/02/apartamento-2.png<br>
 
 # Acesse o Figma do projeto
 https://www.figma.com/file/rJ2KwenAAA0Mg8X1LbYYBi/Restaurante---Food?node-id=0%3A1&t=AmCij3WZhEwqFQ7P-0
