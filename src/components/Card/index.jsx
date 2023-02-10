@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import regua from '../../public/assets/icons/regua.png';
 import carrinho from '../../public/assets/icons/carrinho.png';
 import cama from '../../public/assets/icons/cama.png';
+import pipe from '../../public/assets/icons/pipe.png';
 
 function Card({ id, tipo, imagem, rua, cidade, metragem, vagas, quartos }) {
 
@@ -19,10 +20,12 @@ function Card({ id, tipo, imagem, rua, cidade, metragem, vagas, quartos }) {
                             <img src={regua} alt={metragem} />
                             <p>{metragem}</p>
                         </div>
+                        <img src={pipe} alt="elemento pipe" className={styles.info__pipe}/>
                         <div className={styles.info__elemento}>
                             <img src={carrinho} alt={vagas} />
                             <p>{vagas} Vagas</p>
                         </div>
+                        <img src={pipe} alt="elemento pipe" className={styles.info__pipe}/>
                         <div className={styles.info__elemento}>
                             <img src={cama} alt={quartos} />
                             <p>{quartos} Quartos</p>

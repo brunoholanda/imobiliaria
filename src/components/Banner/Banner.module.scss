@@ -1,20 +1,20 @@
 .banner {
     font-family: var(--fonte-principal);
-    padding: 0;
-    margin-bottom: 2em;
-    
+    padding: 0 0 4em;
+        
     img {
-        position: absolute;
         width: 100%;
+        
     }
 
     &__info {
-        position: relative;
-        padding: 0em 35em 0 7em;
+        position: absolute;
+        padding: 0em 30em 0 7em;
+        top: 130px;
 
     h1 {
        
-       font-size: 48px;
+       font-size: 45px;
        font-weight: 700;
     }
 
@@ -41,3 +41,54 @@
     }
 }
 }
+
+@media screen and (max-width: 1024px) {
+.banner {
+    &__info {
+        padding: 0em 25em 0 2em;
+        top: 110px;
+
+    h1 {
+       font-size: 35px;
+
+    }
+
+    p {
+        font-size: 18px;
+       
+    }
+
+    button {
+        width: 250px;
+        height: 35px;
+    }
+    }
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        &__info {
+            padding: 0em 25em 0 2em;
+            top: 120px;
+    
+        h1 {
+           font-size: 20px;
+    
+        }
+    
+        p {
+            font-size: 14px;
+           
+        }
+    
+        button {
+            width: 210px;
+            height: 35px;
+        }
+        }
+    }
+    }
+    
+

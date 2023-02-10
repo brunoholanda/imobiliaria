@@ -1,0 +1,38 @@
+.destaque {
+    padding: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-family: var(--fonte-principal);
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    &__cards {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+    }
+
+    &__cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__botoes {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+

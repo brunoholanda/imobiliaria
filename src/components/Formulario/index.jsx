@@ -68,7 +68,7 @@ export default function Formulario(props) {
             />
             <CampoTexto
                 obrigatorio={true}
-                placeholder="Metragem do imóvel"
+                placeholder="Metragem do imóvel em m²"
                 valor={metragem}
                 aoAlterado={valor => setMetragem(valor)}
             />
@@ -90,7 +90,7 @@ export default function Formulario(props) {
                 valor={corretor}
                 aoAlterado={valor => setCorretor(valor)}
             />
-             <CampoTexto
+            <CampoTexto
                 obrigatorio={true}
                 placeholder="Corretor, deixe seu telefone"
                 valor={telefone}

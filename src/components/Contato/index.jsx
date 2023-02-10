@@ -36,7 +36,7 @@ export default function Contato() {
                     <a href="#contato">Contato</a>
                 </nav>
             </div>
-            <div ClassName={styles.contato__info}>
+            <div className={styles.contato__info}>
                 <h3>Informações de contato </h3>
                 <div className={styles.contato__mail}>
                     <div className={styles.contato__telmail}>
@@ -51,7 +51,7 @@ export default function Contato() {
             </div>
             <div>
                 <h2>Novidades diretamente no seu e-mail</h2>
-                <div ClassName={styles.contato__input}>
+                <div className={styles.contato__input}>
                     <input placeholder='Digite seu e-mail'></input>
                     <button>ENVIAR</button>
                 </div>
