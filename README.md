@@ -14,7 +14,7 @@
 https://imobiliaria-orpin.vercel.app/
 
 # Como usar?
->Clicar no botão adicionar logo apos o banner<br>
+>Clicar no botão ANUNCIE AQUI dentro do banner<br>
 >Inserir as informações do imóvel a ser anunciado<br>
 >Clicar no Botão "Adicionar Imóvel"<br>
 
