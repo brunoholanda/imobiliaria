@@ -1,0 +1,52 @@
+.passos {
+    display: flex;
+    font-family: var(--fonte-principal);
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 4em;
+
+
+    p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    &__titulo {
+
+        h2 {
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 0;
+        }
+
+        p {
+            line-height: 14px;
+        }
+    }
+
+    &__componente {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            
+            font-size: 140px;
+            color: rgba(92, 99, 239, 0.1);
+            margin: 0;
+        }
+    }
+
+    &__icone {
+
+        img {
+            position: absolute;
+            margin: -0.6em;
+        }
+
+        p{
+            line-height: 18px;
+            margin: 2.8em 0 0 -1em;
+        }
+    }
+   
+}

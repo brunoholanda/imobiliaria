@@ -49,7 +49,7 @@ export default function Contato() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={styles.contato__entrada}>
                 <h2>Novidades diretamente no seu e-mail</h2>
                 <div className={styles.contato__input}>
                     <input placeholder='Digite seu e-mail'></input>

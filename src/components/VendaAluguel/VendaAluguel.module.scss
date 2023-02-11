@@ -1,0 +1,47 @@
+.comercial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 4em;
+}
+
+.container {
+    display: flex;
+    font-family: var(--fonte-principal);
+
+    &__texto {
+        background-color: var(--cinza-claro);
+        border: 1px solid var(--cinza);
+        border-radius: 8px 0 0 8px;
+        height: 229px;
+        padding: 0em .5em 0 1em;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 5.5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--preto);
+        }
+
+        p:nth-child(1):after {
+            content: " >";
+            
+        }
+    }
+
+    &__imagem {
+        img {
+            width: 260px;
+            height: 230px;
+        }
+    }
+}
