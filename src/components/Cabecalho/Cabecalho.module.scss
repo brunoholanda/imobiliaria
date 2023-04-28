@@ -32,3 +32,31 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 0 2em;
+
+        &__contato {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            
+            img {
+                display: none;
+            }
+            
+            p {
+
+                margin-left: 1em;
+            }
+        }
+
+        &__social {
+            margin-right: 1em;
+        }
+    
+    }
+
+
+}

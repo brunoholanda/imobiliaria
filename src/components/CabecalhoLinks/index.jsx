@@ -2,10 +2,14 @@ import { Link } from 'react-router-dom';
 import styles from './CabecalhoLinks.module.scss';
 import wp from '../../public/assets/icons/wp.png';
 import logo from '../../public/assets/img/logo.png';
+import MenuMobile from 'components/MenuMobile';
 
 export default function CabecalhoLinks() {
     return (
         <section className={styles.cabecalho}>
+            <div className={styles.cabecalho__mobile}>
+                <MenuMobile />
+            </div>
             <Link to="./">
                 <img src={logo} alt="logo da imobiliaria" />
             </Link>
